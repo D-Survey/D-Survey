@@ -1,0 +1,21 @@
+{
+  "name": "D-Survey",
+  "version": "0.0.1",
+  "homepage": "https://github.com/D-Survey/D-Survey",
+  "description": "Mobile Application",
+  "authors": [
+    "Thanushan"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets",
+    "test",
+    "tests"
+  ],
+    "dependencies": {
+        "requirejs": "2.1.*"
+    }
+}
