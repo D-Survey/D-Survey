@@ -1,2 +1,4 @@
-platforms/android
+hooks/
+platforms/
+plugins/
 www/assets/
