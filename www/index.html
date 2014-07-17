@@ -9,12 +9,13 @@
         <title>D-Survey</title>
     </head>
     <body>
-        <div id="app-container" class="main-container">
+        <div id="app" class="main-container">
 
         </div>
 
         <script type="text/javascript" src="cordova.js"></script>
         <script type="text/javascript" src="assets/requirejs/require.js"></script>
+        <script type="text/javascript" src="assets/requirejs-text/text.js"></script>
         <script>
             require.config({
               paths: {
@@ -24,7 +25,7 @@
         </script>
         <script type="text/javascript">
             require(['dSurvey'], function(dSurvey) {
-                var dSurvey = new dSurvey('app-container');
+                var dSurvey = new dSurvey('app');
             });
         </script>
     </body>
