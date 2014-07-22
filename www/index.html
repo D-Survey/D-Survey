@@ -20,16 +20,18 @@
         <script>
             require.config({
               paths: {
-                "dSurvey" : "js/dSurvey",
+                "DSurvey" : "js/DSurvey",
                 "handlebars": "assets/handlebars/handlebars.amd.min",
                 "requireText": "assets/requirejs-text/text",
+                "config": "data/metaData"
               }
             });
         </script>
         <script type="text/javascript">
-            require(['dSurvey'], function(dSurvey) {
-                var dSurvey = new dSurvey('app');
+            require(['DSurvey', 'config'], function(DSurvey, config) {
+                var dSurvey = new DSurvey('app');
                 dSurvey.init();
+                dSurvey.render(config.configData);
             });
         </script>
     </body>
