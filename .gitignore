@@ -1,4 +1,4 @@
-hooks/
-platforms/
-plugins/
-www/assets/
+/platforms/
+/plugins/
+/www/assets/
+/hooks/
