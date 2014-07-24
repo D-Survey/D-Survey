@@ -56,9 +56,13 @@ h1 {
 }
 
 .bar {
-  background-color: #428bca;
+    background-color: #428bca;
 }
 
 .title {
-  color: #fff;
+    color: #fff;
+}
+a {
+    color: #F0F4F7;
+    text-decoration: none;
 }
