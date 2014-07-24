@@ -1,4 +1,0 @@
-D-Survey
-========
-
-Mobile Application
